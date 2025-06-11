@@ -22,10 +22,12 @@ class HomePage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
               child: Align(
-                alignment: Alignment.topCenter,
+                alignment: Alignment.topLeft,
                 child: Text(
                   'ScanIT',
+                  
                   style: TextStyle(
+                    
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
                     color: AppColors.black,
@@ -63,11 +65,11 @@ class HomePage extends StatelessWidget {
                     width: 80,
                     height: 80,
                     decoration: BoxDecoration(
-                      color: AppColors.black,
+                      color: AppColors.orange,
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.orange.withOpacity(0.2),
+                          color: Colors.black.withOpacity(0.2),
                           blurRadius: 15,
                           offset: const Offset(0, 8),
                         ),
